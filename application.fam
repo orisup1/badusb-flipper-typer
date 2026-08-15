@@ -1,0 +1,9 @@
+App(
+    name="BadUSB Typing Race",
+    version="1.0",
+    entry_point="badusb_typing_race",
+    icon="icons/icon_10x10.png",
+    icon_70x40="icons/icon_70x40.png",
+    requires=["usb_hid"],
+    stack_size=2048,
+)
